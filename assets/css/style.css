@@ -344,7 +344,7 @@ h4:hover {
 
 
 /* Small smartphones */
-@media screen and (max-width: 576px) {
+@media screen and (min-width: 374px) and (max-width: 576px) {
   header {
     flex-direction: column;
   }
@@ -442,6 +442,114 @@ h4:hover {
     height: 50px;
     font-size: 50%;
     margin: 0;
+  }
+  p {
+    font-size: 70%;
+  }
+  h4::after {
+    width: 15px;
+    height: 15px;
+  }
+}
+@media screen and (max-width: 373px) {
+  header {
+    flex-direction: column;
+  }
+  header h1 {
+    font-size: 30px;
+    display: inline;
+    padding: 4px;
+  }
+  nav li {
+    margin: 10px 5px;
+  }
+  nav {
+    margin: 2px;
+  }
+  .backgroundimg {
+    height: 100px;
+  }
+  .subheader {
+    padding: 5px;
+    font-size: 80%;
+    right: 20%;
+  }
+
+  .aboutmesect {
+    flex-direction: column;
+    align-items: center;
+  }
+  .aboutmecontent {
+    border-left: none;
+    margin-top: 15px;
+    flex-direction: column;
+    align-items: center;
+  }
+  .profilepic {
+    width: 35%;
+    margin-bottom: 5%;
+  }
+  h3 {
+    font-size: 150%;
+    align-items: center;
+    margin: 0 10px 0 0;
+  }
+  main {
+    margin: 5px;
+    overflow: hidden;
+  }
+
+.imgpic {
+  border-radius:50%;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  object-position: 63%;
+
+}
+  .worksect {
+    flex-direction: column;
+    align-items: center;
+  }
+  .workcontent {
+    border-left: none;
+    width: 90%;
+  }
+  .workimg {
+    margin: 10px 0;
+  }
+  .homework2,
+  .homework3 {
+    height: 100px;
+    width: 100px;
+  }
+  .mediascreenflex {
+    display: flex;
+    justify-content: center;
+  }
+  .aside {
+    margin-left: 0;
+    clear: both;
+    float: none;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+  }
+  .homework1 {
+    height: 200px;
+    width: 75%;
+  }
+
+  h4 {
+    font-size: 57%;
+    padding: 5px;
+  }
+  .contactcontent {
+    border-left: none;
+    height: 50px;
+    font-size: 50%;
+    margin: 0;
+    justify-content: end;
   }
   p {
     font-size: 70%;
