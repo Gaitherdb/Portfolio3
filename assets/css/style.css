@@ -273,7 +273,7 @@ a:visited {
   text-align: center;
   border-radius: 6px;
   padding: 5px 0;
-  border: 3px dotted black;
+  border: 3px dotted black; 
   /* Position the tooltip */
   position: absolute;
   z-index: 1;
@@ -445,6 +445,13 @@ h4:hover {
   nav {
     margin: 2px;
   }
+
+  .text {
+    background-color: black;
+    color: white;
+    font-size: 10px;
+    padding: 8px 16px;
+  }
   .backgroundimg {
     height: 100px;
   }
@@ -453,7 +460,13 @@ h4:hover {
     font-size: 80%;
     right: 20%;
   }
-
+  .tooltip .tooltiptext {
+    
+    width: 120px;
+    
+    left: 100px;
+    top: 0;
+  }
   .aboutmesect {
     flex-direction: column;
     align-items: center;
@@ -643,5 +656,18 @@ h4:hover {
   h4::after {
     width: 15px;
     height: 15px;
+  }
+  .text {
+    background-color: black;
+    color: white;
+    font-size: 10px;
+    padding: 4px 8px;
+  }
+  .tooltip .tooltiptext {
+    
+    width: 120px;
+    
+    left: 50px;
+    top: 0;
   }
 }
