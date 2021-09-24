@@ -1,0 +1,453 @@
+:root {
+  --light-orange: #ffd8b3;
+  --green: #85cc7e;
+  --light-green: #aadfaa;
+  --orange: #feb264;
+  --blue: #10385e;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+main {
+  margin: 0 50px 40px 80px;
+}
+
+body {
+  font-family: "Goudy Bookletter 1911", sans-serif;
+  font-size: 20px;
+  background-color: #fdf8f5;
+  color: #4f4846;
+}
+/* Uses flex to adjust positioning for text & nav bar */
+.main-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px 15px 0;
+  background: var(--blue);
+  color: #fff;
+}
+
+header h1 {
+  font-size: 50px;
+  padding: 5px 20px 5px 70px;
+  background: var(--light-orange);
+  color: black;
+}
+.backgroundimg {
+  height: 200px;
+  width: 100%;
+  margin-bottom: 25px;
+  background-image: url("pexels-fwstudio-132204.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+nav li {
+  margin: 20px 10px;
+  list-style-type: none;
+  display: inline;
+}
+
+nav li a {
+  color: #fdf8f5;
+  text-decoration: none;
+}
+nav a:hover {
+  color: var(--light-green);
+}
+
+.subheader {
+  position: absolute;
+  right: 10%;
+  bottom: 10%;
+  background-color: var(--light-orange);
+  padding: 10px;
+}
+
+.relative {
+  position: relative;
+}
+/* Used flex to match the content border line with about me which was forced to use flex */
+.aboutmesect {
+  display: flex;
+  margin-bottom: 4%;
+}
+/* used flex to put profile pic and text side by side */
+.aboutmecontent {
+  display: flex;
+  margin-left: 5px;
+  border-left: 6px solid var(--green);
+}
+.profilepic {
+  width: 20%;
+  margin: 0 15px 0 15px;
+  /* border: 6px solid var(--green); */
+  align-self: center;
+  /* border-radius: 50%; */
+}
+
+
+.image-cropper {
+  /* width: 100px;
+    height: 100px; */
+  /* max-height: 100%;
+    max-width: 100%; */
+  /* position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+    margin: 0 1%;
+    align-content: center;
+    align-items: center; */
+
+  /* width: 100px;
+    height: 100px; */
+  padding: 20px;
+
+  /* background-color: #fff; */
+  /* line-height: 100px; */
+  text-align: center;
+}
+
+.imgpic {
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  object-position: -95px;
+  /* position: relative;
+    top: 50%;
+    transform: translate(0%, -50%); */
+  /* display: inline;
+    margin: 0 auto;
+    height: 100%;
+    /* width: auto; */
+  /* margin-left: -123%;  */
+}
+.aside {
+  margin-left: 20px;
+  clear: both;
+  float: left;
+  width: 27%;
+  height: 100%;
+  text-align: right;
+}
+/* Used flex to adjust positioning. Maybe not neccesary, but if each section doesn't use flex on the section parent, they don't match up */
+.worksect {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 4%;
+}
+/* Makes the container relative for the headers and the flex allows the spacing to work */
+.workcontent {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+
+  margin-left: 5px;
+  border-left: 6px solid var(--green);
+}
+h3 {
+  font-size: 65px;
+}
+.flex {
+  display: flex;
+  flex-direction: column;
+}
+.linkborder {
+  border: 5px black solid;
+}
+.linkborder:hover {
+  border-color: var(--green);
+}
+.linkborder:active {
+  font-size: 180%;
+  box-shadow: 10px #000 inset;
+}
+
+.workimg {
+  margin-top: 10px;
+  /* flex: 2 1; */
+  border-style: solid;
+  border-width: 5px;
+}
+/* gives the link the same right and left margin as the other images */
+.linkproperties {
+  margin: 0 15px;
+  display: flex;
+}
+/* makes sure that both the link and homework image have the same flex properties */
+.homework1 {
+  width: 450px;
+  flex: 2 0 95%;
+  height: 45vh;
+  object-fit: cover;
+}
+.homework2 {
+  width: 200px;
+  flex: 2 1;
+  height: 200px;
+  object-fit: cover;
+}
+.homework3 {
+  width: 200px;
+  flex: 2 1;
+  height: 200px;
+  object-fit: cover;
+}
+
+/* Image titles */
+h4 {
+  position: absolute;
+  left: 20px;
+  bottom: 10px;
+  padding: 20px;
+  color: white;
+  background-color: black;
+  font-size: 20px;
+}
+h4::after {
+  background-image: url(githubicon6.png);
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background-size: cover;
+  background-position: center;
+  content: "";
+}
+h4:hover {
+  color: var(--green);
+}
+/* Makes it so everything is on the same line */
+.contactsect {
+  display: flex;
+}
+/* spaces out the text evenly, centers the text and forces it to go 100% of the container width. and border */
+.contactcontent {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-left: 5px;
+  border-left: 6px solid var(--green);
+  width: 100%;
+  height: 140px;
+}
+/* Alters spacing slightly, gives rid of the list style and adds border */
+.contactcontent li {
+  margin: 20px 10px;
+  list-style-type: none;
+  border-bottom: 5px solid var(--blue);
+}
+.contactcontent li a {
+  color: black;
+  text-decoration: none;
+}
+.contactcontent li a:hover {
+  color: var(--green);
+}
+
+
+@media screen and (min-width: 992px) and (max-width: 1200px){
+.aboutmecontent {
+  display:flex;
+  flex-direction: column;
+  margin-left: 5px;
+  border-left: 6px solid var(--green);
+}
+  .flex {
+    display:flex;
+    flex-direction: column;
+    margin-left: 5px;
+  }
+}
+/* Large smartphones -*/
+@media screen and (min-width: 577px) and (max-width: 991px) {
+  header {
+    flex-direction: column;
+  }
+  header h1 {
+    font-size: 30px;
+    display: inline;
+    padding: 4px;
+  }
+  nav li {
+    margin: 10px 5px;
+  }
+  nav {
+    margin: 2px;
+  }
+  .backgroundimg {
+    height: 100px;
+  }
+  .subheader {
+    padding: 5px;
+    font-size: 120%;
+  }
+  /* Allows the aside headers to be on the same line on smaller screens. Could have made both headers display inline as well since I added text align: center */
+  .mediascreenflex {
+    display: flex;
+    justify-content: center;
+  }
+  /* gets rid of most properties for aside. text-align is only being used for Work aside */
+  .aside {
+    margin-left: 0;
+    clear: both;
+    float: none;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+  }
+  .aboutmesect {
+    flex-direction: column;
+    align-items: center;
+  }
+  .aboutmecontent {
+    border-left: none;
+    margin-top: 15px;
+    align-items: center;
+  }
+  .profilepic {
+    width: 35%;
+  }
+  /* reduces main margin */
+  main {
+    margin: 10px;
+  }
+  h3 {
+    border-bottom: none;
+    margin: 0 15px 0 0;
+  }
+  .worksect {
+    flex-direction: column;
+    align-items: center;
+    border-left: none;
+  }
+  .workcontent {
+    border-left: none;
+    width: 90%;
+  }
+  .workimg {
+    margin-top: 3%;
+  }
+
+  .contactcontent {
+    border-left: none;
+    height: 100px;
+  }
+  p {
+    font-size: 90%;
+  }
+}
+
+
+/* Small smartphones */
+@media screen and (max-width: 576px) {
+  header {
+    flex-direction: column;
+  }
+  header h1 {
+    font-size: 30px;
+    display: inline;
+    padding: 4px;
+  }
+  nav li {
+    margin: 10px 5px;
+  }
+  nav {
+    margin: 2px;
+  }
+  .backgroundimg {
+    height: 100px;
+  }
+  .subheader {
+    padding: 5px;
+    font-size: 80%;
+    right: 20%;
+  }
+
+  .aboutmesect {
+    flex-direction: column;
+    align-items: center;
+  }
+  .aboutmecontent {
+    border-left: none;
+    margin-top: 15px;
+    flex-direction: column;
+    align-items: center;
+  }
+  .profilepic {
+    width: 35%;
+    margin-bottom: 5%;
+  }
+  h3 {
+    font-size: 150%;
+    align-items: center;
+    margin: 0 10px 0 0;
+  }
+  main {
+    margin: 5px;
+    overflow: hidden;
+  }
+
+.imgpic {
+  border-radius:50%;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  object-position: 63%;
+
+}
+  .worksect {
+    flex-direction: column;
+    align-items: center;
+  }
+  .workcontent {
+    border-left: none;
+    width: 90%;
+  }
+  .workimg {
+    margin: 10px 0;
+  }
+  .homework2,
+  .homework3 {
+    height: 100px;
+    width: 100px;
+  }
+  .mediascreenflex {
+    display: flex;
+    justify-content: center;
+  }
+  .aside {
+    margin-left: 0;
+    clear: both;
+    float: none;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+  }
+  .homework1 {
+    height: 200px;
+    width: 75%;
+  }
+
+  h4 {
+    font-size: 57%;
+    padding: 5px;
+  }
+  .contactcontent {
+    border-left: none;
+    height: 50px;
+    font-size: 50%;
+    margin: 0;
+  }
+  p {
+    font-size: 70%;
+  }
+  h4::after {
+    width: 15px;
+    height: 15px;
+  }
+}
