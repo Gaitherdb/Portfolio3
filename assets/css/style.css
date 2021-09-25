@@ -412,8 +412,9 @@ h4:hover {
     height: 100px;
   }
   .subheader {
-    padding: 5px;
-    font-size: 120%;
+    /* padding: 5px;
+    font-size: 120%; */
+    display: none;
   }
   /* Allows the aside headers to be on the same line on smaller screens. Could have made both headers display inline as well since I added text align: center */
   .mediascreenflex {
@@ -437,6 +438,8 @@ h4:hover {
     border-left: none;
     margin-top: 15px;
     align-items: center;
+    display: flex;
+    flex-direction: column;
   }
   .profilepic {
     width: 35%;
@@ -513,9 +516,10 @@ h4:hover {
     height: 100px;
   }
   .subheader {
-    padding: 5px;
+    /* padding: 5px;
     font-size: 80%;
-    right: 20%;
+    right: 20%; */
+    display: none;
   }
   .tooltip .tooltiptext {
     width: 120px;
@@ -553,6 +557,7 @@ h4:hover {
     height: 200px;
     object-fit: cover;
     object-position: 63%;
+    border: 5px solid var(--light-blue);
   }
   .worksect {
     flex-direction: column;
@@ -624,9 +629,10 @@ h4:hover {
     height: 100px;
   }
   .subheader {
-    padding: 5px;
+    /* padding: 5px;
     font-size: 80%;
-    right: 20%;
+    right: 20%; */
+    display: none;
   }
 
   .aboutmesect {
