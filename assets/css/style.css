@@ -7,7 +7,6 @@
   --light-blue: #174578;
   --baby-blue: rgba(177, 229, 242);
   --grey: rgba(166, 166, 168);
-
 }
 * {
   box-sizing: border-box;
@@ -82,7 +81,8 @@ header h1 {
   font-size: 50px;
   padding: 5px 20px 5px 70px;
   background: var(--light-blue);
-border: 10px double black;
+  border: 10px double black;
+  border-left: none;
   color: white;
 }
 .backgroundimg {
@@ -134,7 +134,7 @@ nav a:hover {
   border-left: 6px solid var(--light-blue);
 }
 .profilepic {
-  width: 20%;   
+  width: 20%;
   margin: 0 15px 0 15px;
   /* border: 6px solid var(--green); */
   align-self: center;
@@ -347,7 +347,7 @@ h4:hover {
   margin-left: 5px;
   border-left: 6px solid var(--light-blue);
   width: 100%;
-  height: 140px;  
+  height: 140px;
 }
 /* Alters spacing slightly, gives rid of the list style and adds border */
 .contactcontent li {
@@ -362,7 +362,6 @@ h4:hover {
 .contactcontent li a:hover {
   color: var(--baby-blue);
 }
-
 
 @media screen and (min-width: 1201px) {
   .text-deployed {
@@ -401,6 +400,7 @@ h4:hover {
     font-size: 30px;
     display: inline;
     padding: 4px;
+    border-left:10px double black;
   }
   nav li {
     margin: 10px 5px;
@@ -478,7 +478,7 @@ h4:hover {
     font-size: 16px;
     padding: 4px 8px;
   }
-  
+
   .text-deployed {
     background-color: black;
     color: white;
@@ -486,8 +486,6 @@ h4:hover {
     padding: 8px 16px;
   }
 }
-
-
 
 /* Small smartphones */
 @media screen and (min-width: 374px) and (max-width: 576px) {
@@ -498,6 +496,7 @@ h4:hover {
     font-size: 30px;
     display: inline;
     padding: 4px;
+    border-left:10px double black;
   }
   nav li {
     margin: 10px 5px;
@@ -618,6 +617,7 @@ h4:hover {
     font-size: 30px;
     display: inline;
     padding: 4px;
+    border-left:10px double black;
   }
   nav li {
     margin: 10px 5px;
