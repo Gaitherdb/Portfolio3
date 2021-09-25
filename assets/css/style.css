@@ -142,23 +142,9 @@ nav a:hover {
 }
 
 .image-cropper {
-  /* width: 100px;
-    height: 100px; */
-  /* max-height: 100%;
-    max-width: 100%; */
-  /* position: relative;
-    overflow: hidden;
-    border-radius: 50%;
-    margin: 0 1%;
-    align-content: center;
-    align-items: center; */
-
-  /* width: 100px;
-    height: 100px; */
+ 
   padding: 20px;
 
-  /* background-color: #fff; */
-  /* line-height: 100px; */
   text-align: center;
 }
 
@@ -168,14 +154,7 @@ nav a:hover {
   height: 300px;
   object-fit: cover;
   object-position: -95px;
-  /* position: relative;
-    top: 50%;
-    transform: translate(0%, -50%); */
-  /* display: inline;
-    margin: 0 auto;
-    height: 100%;
-    /* width: auto; */
-  /* margin-left: -123%;  */
+
 }
 .aside {
   margin-left: 20px;
@@ -231,14 +210,14 @@ h3 {
   margin: 0 15px;
   display: flex;
 }
-/* makes sure that both the link and homework image have the same flex properties */
+/* makes sure that both the link and homework image have the same flex properties
 .homework1 {
   width: 450px;
   flex: 2 0 95%;
   height: 45vh;
   object-fit: cover;
-}
-.homework2 {
+} */
+/* .homework2 {
   width: 200px;
   flex: 2 1;
   height: 200px;
@@ -249,7 +228,7 @@ h3 {
   flex: 2 1;
   height: 200px;
   object-fit: cover;
-}
+} */
 #github {
   align-self: center;
   border-radius: 50%;
@@ -262,7 +241,6 @@ h3 {
   background-size: cover;
   background-position: center;
   content: "";
-  /* object-position: 50% 50%; */
 }
 
 #justgithub {
@@ -278,7 +256,6 @@ h3 {
   background-size: cover;
   background-position: center;
   content: "";
-  /* object-position: 50% 50%; */
 }
 a:link {
   text-decoration: none;
@@ -314,7 +291,7 @@ a:visited {
   visibility: visible;
 }
 /* Image titles */
-h4 {
+/* h4 {
   position: absolute;
   left: 20px;
   bottom: 10px;
@@ -322,8 +299,8 @@ h4 {
   color: white;
   background-color: black;
   font-size: 20px;
-}
-h4::after {
+} */
+/* h4::after {
   background-image: url(githubicon6.png);
   display: inline-block;
   width: 30px;
@@ -331,10 +308,10 @@ h4::after {
   background-size: cover;
   background-position: center;
   content: "";
-}
-h4:hover {
+} */
+/* h4:hover {
   color: var(--green);
-}
+} */
 /* Makes it so everything is on the same line */
 .contactsect {
   display: flex;
