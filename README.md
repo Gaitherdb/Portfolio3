@@ -13,8 +13,12 @@
   * [Questions](#questions)
   
   ## Usage
-  Access the webpage by going to the deployed site: [My Portfolio](https://gaitherdb.github.io/Portfolio3/). 
+  Access the webpage by going to the deployed site: [My Portfolio](https://gaitherdb.github.io/Portfolio3/).
+  
+  
   View from 1920 x 1080 px:
+  
+  
 ![Portfolio3](https://user-images.githubusercontent.com/83731627/134785134-592e65fe-5c7a-4d33-a060-0ea11c26472e.gif)
 
   View from 768 x 1558 px:
