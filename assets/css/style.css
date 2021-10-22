@@ -104,7 +104,7 @@ nav a:hover {
   width: 300px;
   height: 300px;
   object-fit: cover;
-  object-position: -97px;
+  /* object-position: -97px; */
   float: left;
   margin: 1%;
 }
