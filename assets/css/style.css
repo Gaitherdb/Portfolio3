@@ -104,7 +104,7 @@ nav a:hover {
   width: 300px;
   height: 300px;
   object-fit: cover;
-  /* object-position: -97px; */
+  object-position: top;
   float: left;
   margin: 1%;
 }
@@ -260,6 +260,50 @@ a:visited {
 
 .tooltip .tooltiptext {
   visibility: hidden;
+  width: 150px;
+  background-color: white;
+  color: black;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 5px;
+  border: 3px dotted black;
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  left: 150px;
+  top: -30px;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+.tooltip:hover .tooltipdesc {
+  visibility: visible;
+}
+
+.tooltipdesc {
+  visibility: hidden;
+  width: 325px;
+  background-color: white;
+  color: black;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 5px;
+  border: 3px solid black;
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  left: 65px;
+  top: -120px;
+}
+
+.tooltip:hover .tooltipgithub {
+  visibility: visible;
+}
+
+.tooltipgithub {
+  visibility: hidden;
   width: 120px;
   background-color: white;
   color: black;
@@ -270,12 +314,8 @@ a:visited {
   /* Position the tooltip */
   position: absolute;
   z-index: 1;
-  left: 200px;
+  left: -30px;
   top: -30px;
-}
-
-.tooltip:hover .tooltiptext {
-  visibility: visible;
 }
 /* Image titles */
 /* h4 {
@@ -353,9 +393,16 @@ a:visited {
     font-size: 16px;
     padding: 16px 32px;
   }
+  .tooltip .tooltiptext {
+    left: 95px;
+  }
+  .tooltipdesc {
+    left: 5px;
+  }
 }
 /* Large smartphones -*/
 @media screen and (min-width: 577px) and (max-width: 991px) {
+  
   header {
     flex-direction: column;
   }
@@ -452,6 +499,12 @@ a:visited {
     padding-inline-start: 0px;
 
   }
+  .tooltip .tooltiptext {
+    left: 70px;
+  }
+  .tooltipdesc {
+    left: 20px;
+  }
 }
 
 /* Small smartphones */
@@ -490,8 +543,13 @@ a:visited {
   .tooltip .tooltiptext {
     width: 120px;
     padding: 5px 0px;
-    left: 90px;
-    top: 0;
+    left: 40px;
+    top: -40px;
+  }
+  .tooltipdesc {
+    left: -70px;
+    top: -75px;
+    font-size: 12px;
   }
   .aboutmesect {
     flex-direction: column;
@@ -522,7 +580,7 @@ a:visited {
     width: 200px;
     height: 200px;
     object-fit: cover;
-    object-position: 65%;
+    object-position: top;
   }
   .worksect {
     flex-direction: column;
@@ -574,6 +632,8 @@ a:visited {
     width: 15px;
     height: 15px;
   }
+
+  
 }
 @media screen and (max-width: 373px) {
   header {
@@ -630,7 +690,7 @@ a:visited {
     width: 200px;
     height: 200px;
     object-fit: cover;
-    object-position: 63%;
+    object-position: top;
   }
   .worksect {
     flex-direction: column;
@@ -689,10 +749,17 @@ a:visited {
     font-size: 10px;
     padding: 4px 8px;
   }
+
   .tooltip .tooltiptext {
     width: 120px;
     padding: 5px 1px;
-    left: 50px;
-    top: 0;
+    left: 5px;
+    top: -40px;
+  }
+  .tooltipdesc {
+    left: -60px;
+    top: -68px;
+    font-size: 10px;
+    width: 250px;
   }
 }
