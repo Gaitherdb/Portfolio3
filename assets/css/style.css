@@ -580,6 +580,10 @@ a:visited {
     left: -45px;
     top: -65px;
   }
+
+  .tooltip-right-small{
+    left: -210px;
+  }
   .aboutmesect {
     flex-direction: column;
     align-items: center;
@@ -795,5 +799,8 @@ a:visited {
     width: 305px;
     left: -60px;
     top: -60px;
+  }
+  .tooltip-right-small{
+    left: -190px;
   }
 }
