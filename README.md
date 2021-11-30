@@ -2,7 +2,7 @@
   ## ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
   ## Description
-  A web page that displays basic info about myself, David Gaither, while neatly organizing clickable cards that direct to hand picked assignments from my University of Richmond Full Stack Flex Bootcamp program. Contact information along with links to my LinkedIn and resume included.
+  A web page that displays basic info about myself, David Gaither, while neatly organizing clickable cards that direct to hand picked assignments from my University of Richmond Full Stack Flex Bootcamp program. Contact information along with links to my LinkedIn and resume included. Refractored from my first webpage ever created.
   
   Utilizing HTML & CSS with no additional framework. An updated version of the first web page I ever created.
 
