@@ -1,244 +1,356 @@
 <!DOCTYPE html>
 <html lang="en-US">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <title>David Gaither's Portfolio</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <header class="main-header">
-        <h1>David Gaither</h1>
-        <nav>
-            <ul>
-                <li><a href="#about-me">About Me</a></li>
-                <li><a href="#work">Work</a></li>
-                <li><a href="#contact">Contact Me</a></li>
-            </ul>
-        </nav>
+      <h1>David Gaither</h1>
+      <nav>
+        <ul>
+          <li><a href="#about-me">About Me</a></li>
+          <li><a href="#work">Work</a></li>
+          <li><a href="#contact">Contact Me</a></li>
+        </ul>
+      </nav>
     </header>
 
-    <div class="backgroundimg relative" role="img" aria-label="moroccan-flower pattern">
-        <h2 class="subheader">Front-End Web Developer</h2>
+    <div
+      class="backgroundimg relative"
+      role="img"
+      aria-label="moroccan-flower pattern"
+    >
+      <h2 class="subheader">Front-End Web Developer</h2>
     </div>
 
     <main>
-        <aside class="aside">
-            <section class="mediascreenflex">
-                <h3>About</h3>
-                <h3>Me</h3>
-            </section>
-        </aside>
+      <aside class="aside">
+        <section class="mediascreenflex">
+          <h3>About</h3>
+          <h3>Me</h3>
+        </section>
+      </aside>
 
-        <section id="about-me" class="aboutmesect">
-            <div class="aboutmecontent">
-                <div class="image-cropper">
-                    <img src="./assets/images/David2021.jpg" alt="Picture of David" class="imgpic" />
-                    As a recent graduate of University of Richmond's Full Stack Web
-                    Development Program, I am thrilled to return to my roots. Each day
-                    is filled with new problems and each solution gets me closer to
-                    proficiency; a constant cycle that is highly rewarding. I am
-                    obssessed with the unlimited opportunity to be creative in this
-                    field.
-                </div>
-                <div class="tech">
-                    <br />
-                    <h5>Technical Skills</h5>
-                    <p>Languages: JavaScript ES6+, CSS3, HTML5</p>
-                    <p>Applications: GitHub, MongoDB, MySQL</p>
-                    <p>Tools: Express, React, Node, Handlebars, Bootstrap</p>
-                </div>
+      <section id="about-me" class="aboutmesect">
+        <div class="aboutmecontent">
+          <div class="image-cropper">
+            <img
+              src="./assets/images/David2021.jpg"
+              alt="Picture of David"
+              class="imgpic"
+            />
+
+            Front-End Web Developer employing a marketing background to build a
+            more intuitive and engaging user experience on the web. Background
+            as a professional musician provides a deep appreciation for the
+            importance of understanding the business side of a creative field.
+            Earned a certificate in Full Stack Web Development from University
+            of Richmond in 2021. Eager to combine a background in the
+            entertainment industry with technical skills to offer a consistent
+            team player with strengths in creativity and competitiveness to do
+            and learn more.
+          </div>
+          <div class="tech">
+            <br />
+            <h5>Technical Skills</h5>
+            <p>Languages: JavaScript ES6+, CSS3, HTML5, SQL</p>
+            <p>
+              Applications: GitHub, GitLab, MongoDB, MySQL, GraphQL, Insomnia
+            </p>
+            <p>
+              Tools: Express, React, Redux, Node, Jest, Agile, Sequelize,
+              Mongoose, jQuery, Handlebars, Bootstrap
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <aside class="aside">
+        <section>
+          <h3>Work</h3>
+        </section>
+      </aside>
+
+      <section id="work" class="worksect">
+        <div class="workcontent">
+          <div class="fade-container" style="width: 100%">
+            <img
+              src="./assets/images/CCalendarHome.png"
+              alt="Custom Calendar Homepage"
+              class="fade-image linkborder"
+            />
+            <div class="middle flex">
+              <div class="text tooltip">
+                React * MongoDB * JWT-auth * GraphQL API * MERN-Stack * PWA
+                Bootstrap<span class="tooltipdesc"
+                  >A mobile-first day planner progressive web application
+                  created to easily organize and view to-do lists associated
+                  with dates. Create an account, select a day on the calendar
+                  and start planning your tasks. Create, edit, mark complete, or
+                  delete to-do items.</span
+                >
+              </div>
+              <br />
+              <a
+                href="https://davidscalendar.herokuapp.com/"
+                class="text text-deployed tooltip"
+                >Custom Calendar<span class="tooltiptext"
+                  >View the deployed webpage</span
+                ></a
+              >
+              <br />
+              <a
+                href="https://github.com/Gaitherdb/Custom-Planner"
+                class="text tooltip"
+                id="github"
+                ><span class="tooltipgithub"
+                  >View the Github repository</span
+                ></a
+              >
             </div>
-        </section>
+          </div>
 
-        <aside class="aside">
-            <section>
-                <h3>Work</h3>
-            </section>
-        </aside>
-
-        <section id="work" class="worksect">
-            <div class="workcontent">
-                <div class="fade-container" style="width: 100%">
-                    <img src="./assets/images/CCalendarHome.png" alt="Custom Calendar Homepage"
-                        class="fade-image linkborder" />
-                    <div class="middle flex">
-                        <div class="text tooltip">
-                            React * MongoDB * JWT-auth * GraphQL API * MERN-Stack * PWA
-                            Bootstrap<span class="tooltipdesc">A mobile-first day planner progressive web application created to
-                                easily
-                                organize and view to-do lists associated with dates. Create an
-                                account, select a day on the calendar and start planning your
-                                tasks. Create, edit, mark complete, or delete to-do
-                                items.</span>
-                        </div>
-                        <br />
-                        <a href="https://davidscalendar.herokuapp.com/"
-                            class="text text-deployed tooltip">Custom Calendar<span class="tooltiptext">View the
-                                deployed webpage</span></a>
-                        <br />
-                        <a href="https://github.com/Gaitherdb/Custom-Planner" class="text tooltip" id="github"><span
-                                class="tooltipgithub">View the Github repository</span></a>
-                    </div>
-                </div>
-
-                <div class="fade-container">
-                    <img src="./assets/images/GameTrackerFeed.png" alt="GameTracker Webpage"
-                        class="fade-image linkborder" />
-                    <div class="middle flex">
-                        <a href="https://secret-beach-64321.herokuapp.com/" class="text text-deployed tooltip">Game
-                            Tracker<span class="tooltipdescmini">
-                                <h5>
-                                    MySQL * Express-Session * Express-Handlebars * Bootstrap
-                                </h5>
-                                <br />
-                                A social-media web application that allows a user to make an
-                                account, create, edit, and delete owned games entries, add or
-                                remove friends, and share entries with added friends through a
-                                feed.
-                            </span></a>
-                        <br />
-                        <a href="https://github.com/Gaitherdb/Social-Game-Library" class="text" id="github"></a>
-                    </div>
-                </div>
-
-                <div class="fade-container">
-                    <img src="./assets/images/fitnessdashboard.png" alt="Fitness Tracker"
-                        class="fade-image linkborder" />
-                    <div class="middle flex">
-                        <a href="https://intense-river-35630.herokuapp.com/?id=615fad95b766510016e33241"
-                            class="text text-deployed tooltip">Fitness Tracker<span
-                                class="tooltipdescmini tooltip-right-small">
-                                <h5>MongoDB * Mongoose</h5>
-                                <br />
-                                A web application that allows a user to create, continue and
-                                track daily workouts.
-                            </span></a>
-                        <br />
-                        <a href="https://github.com/Gaitherdb/Fitness-Tracker" class="text" id="github"></a>
-                    </div>
-                </div>
-
-                <div class="fade-container">
-                    <img src="./assets/images/booksearch.png" alt="Book Search" class="fade-image linkborder" />
-                    <div class="middle flex">
-                        <a href="https://github.com/Gaitherdb/Book-Search-Engine"
-                            class="text text-deployed tooltip">Book Search<span class="tooltipdescmini">
-                                <h5>
-                                    React * MongoDB * JWT-auth * GraphQL API * 3rd party RESTful
-                                    API * MERN-Stack
-                                </h5>
-                                <br />
-                                A web application that allows a user to make an account,
-                                search for books using Google Books' API and save or delete
-                                the books to the user's profile.
-                            </span></a>
-                        <br />
-                        <a href="https://github.com/Gaitherdb/Book-Search-Engine" class="text" id="github"></a>
-                    </div>
-                </div>
-
-                <div class="fade-container">
-                    <img src="./assets/images/techblog1.png" alt="Tech Blog" class="fade-image linkborder" />
-                    <div class="middle flex">
-                        <a href="https://infinite-dusk-29227.herokuapp.com/" class="text text-deployed tooltip">Tech
-                            Blog<span class="tooltipdescmini">
-                                <h5>MySQL * Express-Session * Express-Handlebars</h5>
-                                <br />
-                                A web application that allows a user to make an account, view
-                                all posts, comment on posts, and create, edit and delete
-                                posts.
-                            </span></a>
-                        <br />
-                        <a href="https://github.com/Gaitherdb/Model-View-Controller-MVC-Tech-Blog" class="text"
-                            id="github"></a>
-                    </div>
-                </div>
-
-                <div class="fade-container">
-                    <img src="./assets/images/NoteTakerSS.png" alt="Note Taker" class="fade-image linkborder" />
-                    <div class="middle flex">
-                        <a href="https://arcane-inlet-18974.herokuapp.com/" class="text text-deployed tooltip">Note
-                            Taker<span class="tooltipdescmini tooltip-right-small">
-                                <h5>db.json * Express.js * RESTful API</h5>
-                                <br />
-                                An application that allows a user to write, save, delete, and
-                                view notes. Data saved on a .json file.
-                            </span></a>
-                        <br />
-                        <a href="https://github.com/Gaitherdb/Note-Taker" class="text" id="github"></a>
-                    </div>
-                </div>
-
-                <div class="fade-container">
-                    <img src="./assets/images/BudgetTrackerSS.png" alt="Budget Tracker" class="fade-image linkborder" />
-                    <div class="middle flex">
-                        <a href="https://frozen-bayou-66534.herokuapp.com/" class="text text-deployed tooltip">Budget
-                            Tracker<span class="tooltipdescmini">
-                                <h5>MongodDB * IndexedDB * PWA</h5>
-                                <br />
-                                A web application that allows a user to add expenses and
-                                deposists to their budget tracker with or without an internet
-                                connection.
-                            </span></a>
-                        <br />
-                        <a href="https://github.com/Gaitherdb/Progressive-Budget" class="text" id="github"></a>
-                    </div>
-                </div>
-
-                <div class="fade-container">
-                    <img src="./assets/images/EcommerceSS.png" alt="E-commerce backend" class="fade-image linkborder" />
-                    <div class="middle flex">
-                        <a href="https://github.com/Gaitherdb/E-Commerce-Back-End" class="text tooltip"
-                            id="justgithub"><br />E-Commerce Backend<span class="tooltipdescmini tooltip-right-small">
-                                <h5>MySQL * Sequelize * RESTful API * Backend</h5>
-                                <br />
-                                An application that acts as the back end for an acting
-                                e-commerce site.
-                            </span></a>
-                    </div>
-                </div>
-
-                <div class="fade-container">
-                    <img src="./assets/images/TeamProfileSS.png" alt="Team Profile Generator"
-                        class="fade-image linkborder" />
-                    <div class="middle flex">
-                        <a href="https://github.com/Gaitherdb/Team-Profile-Generator" class="text tooltip"
-                            id="justgithub"><br />Team Profile Generator<span class="tooltipdescmini">
-                                <h5>Command-line * Tests * Inquirer * Classes & Objects</h5>
-                                <br />
-                                A command-line application that accepts user input to make a
-                                webpage that displays employees and information about them.
-                            </span></a>
-                    </div>
-                </div>
+          <div class="fade-container">
+            <img
+              src="./assets/images/GameTrackerFeed.png"
+              alt="GameTracker Webpage"
+              class="fade-image linkborder"
+            />
+            <div class="middle flex">
+              <a
+                href="https://secret-beach-64321.herokuapp.com/"
+                class="text text-deployed tooltip"
+                >Game Tracker<span class="tooltipdescmini">
+                  <h5>
+                    MySQL * Express-Session * Express-Handlebars * Bootstrap
+                  </h5>
+                  <br />
+                  A social-media web application that allows a user to make an
+                  account, create, edit, and delete owned games entries, add or
+                  remove friends, and share entries with added friends through a
+                  feed.
+                </span></a
+              >
+              <br />
+              <a
+                href="https://github.com/Gaitherdb/Social-Game-Library"
+                class="text"
+                id="github"
+              ></a>
             </div>
-        </section>
+          </div>
 
-        <aside class="aside">
-            <section class="mediascreenflex">
-                <h3>Contact</h3>
-                <h3>Me</h3>
-            </section>
-        </aside>
+          <div class="fade-container">
+            <img
+              src="./assets/images/fitnessdashboard.png"
+              alt="Fitness Tracker"
+              class="fade-image linkborder"
+            />
+            <div class="middle flex">
+              <a
+                href="https://intense-river-35630.herokuapp.com/?id=615fad95b766510016e33241"
+                class="text text-deployed tooltip"
+                >Fitness Tracker<span
+                  class="tooltipdescmini tooltip-right-small"
+                >
+                  <h5>MongoDB * Mongoose</h5>
+                  <br />
+                  A web application that allows a user to create, continue and
+                  track daily workouts.
+                </span></a
+              >
+              <br />
+              <a
+                href="https://github.com/Gaitherdb/Fitness-Tracker"
+                class="text"
+                id="github"
+              ></a>
+            </div>
+          </div>
 
-        <section id="contact" class="contactsect">
-            <ul class="contactcontent">
-                <li><a href="https://github.com/Gaitherdb">Github</a></li>
-                <li><a href="mailto: gaitherdb@gmail.com">Gaitherdb@gmail.com</a></li>
-                <li><a href="tel.5403989193">5403989193</a></li>
-                <li>
-                    <a href="https://www.linkedin.com/in/david-gaither-Richmond">LinkedIn</a>
-                </li>
-                <li>
-                    <a href="./assets/images/David_Gaither_Resume.pdf">Resume</a>
-                </li>
-            </ul>
+          <div class="fade-container">
+            <img
+              src="./assets/images/booksearch.png"
+              alt="Book Search"
+              class="fade-image linkborder"
+            />
+            <div class="middle flex">
+              <a
+                href="https://github.com/Gaitherdb/Book-Search-Engine"
+                class="text text-deployed tooltip"
+                >Book Search<span class="tooltipdescmini">
+                  <h5>
+                    React * MongoDB * JWT-auth * GraphQL API * 3rd party RESTful
+                    API * MERN-Stack
+                  </h5>
+                  <br />
+                  A web application that allows a user to make an account,
+                  search for books using Google Books' API and save or delete
+                  the books to the user's profile.
+                </span></a
+              >
+              <br />
+              <a
+                href="https://github.com/Gaitherdb/Book-Search-Engine"
+                class="text"
+                id="github"
+              ></a>
+            </div>
+          </div>
+
+          <div class="fade-container">
+            <img
+              src="./assets/images/techblog1.png"
+              alt="Tech Blog"
+              class="fade-image linkborder"
+            />
+            <div class="middle flex">
+              <a
+                href="https://infinite-dusk-29227.herokuapp.com/"
+                class="text text-deployed tooltip"
+                >Tech Blog<span class="tooltipdescmini">
+                  <h5>MySQL * Express-Session * Express-Handlebars</h5>
+                  <br />
+                  A web application that allows a user to make an account, view
+                  all posts, comment on posts, and create, edit and delete
+                  posts.
+                </span></a
+              >
+              <br />
+              <a
+                href="https://github.com/Gaitherdb/Model-View-Controller-MVC-Tech-Blog"
+                class="text"
+                id="github"
+              ></a>
+            </div>
+          </div>
+
+          <div class="fade-container">
+            <img
+              src="./assets/images/NoteTakerSS.png"
+              alt="Note Taker"
+              class="fade-image linkborder"
+            />
+            <div class="middle flex">
+              <a
+                href="https://arcane-inlet-18974.herokuapp.com/"
+                class="text text-deployed tooltip"
+                >Note Taker<span class="tooltipdescmini tooltip-right-small">
+                  <h5>db.json * Express.js * RESTful API</h5>
+                  <br />
+                  An application that allows a user to write, save, delete, and
+                  view notes. Data saved on a .json file.
+                </span></a
+              >
+              <br />
+              <a
+                href="https://github.com/Gaitherdb/Note-Taker"
+                class="text"
+                id="github"
+              ></a>
+            </div>
+          </div>
+
+          <div class="fade-container">
+            <img
+              src="./assets/images/BudgetTrackerSS.png"
+              alt="Budget Tracker"
+              class="fade-image linkborder"
+            />
+            <div class="middle flex">
+              <a
+                href="https://frozen-bayou-66534.herokuapp.com/"
+                class="text text-deployed tooltip"
+                >Budget Tracker<span class="tooltipdescmini">
+                  <h5>MongodDB * IndexedDB * PWA</h5>
+                  <br />
+                  A web application that allows a user to add expenses and
+                  deposists to their budget tracker with or without an internet
+                  connection.
+                </span></a
+              >
+              <br />
+              <a
+                href="https://github.com/Gaitherdb/Progressive-Budget"
+                class="text"
+                id="github"
+              ></a>
+            </div>
+          </div>
+
+          <div class="fade-container">
+            <img
+              src="./assets/images/EcommerceSS.png"
+              alt="E-commerce backend"
+              class="fade-image linkborder"
+            />
+            <div class="middle flex">
+              <a
+                href="https://github.com/Gaitherdb/E-Commerce-Back-End"
+                class="text tooltip"
+                id="justgithub"
+                ><br />E-Commerce Backend<span
+                  class="tooltipdescmini tooltip-right-small"
+                >
+                  <h5>MySQL * Sequelize * RESTful API * Backend</h5>
+                  <br />
+                  An application that acts as the back end for an acting
+                  e-commerce site.
+                </span></a
+              >
+            </div>
+          </div>
+
+          <div class="fade-container">
+            <img
+              src="./assets/images/TeamProfileSS.png"
+              alt="Team Profile Generator"
+              class="fade-image linkborder"
+            />
+            <div class="middle flex">
+              <a
+                href="https://github.com/Gaitherdb/Team-Profile-Generator"
+                class="text tooltip"
+                id="justgithub"
+                ><br />Team Profile Generator<span class="tooltipdescmini">
+                  <h5>Command-line * Tests * Inquirer * Classes & Objects</h5>
+                  <br />
+                  A command-line application that accepts user input to make a
+                  webpage that displays employees and information about them.
+                </span></a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <aside class="aside">
+        <section class="mediascreenflex">
+          <h3>Contact</h3>
+          <h3>Me</h3>
         </section>
+      </aside>
+
+      <section id="contact" class="contactsect">
+        <ul class="contactcontent">
+          <li><a href="https://github.com/Gaitherdb">Github</a></li>
+          <li><a href="mailto: gaitherdb@gmail.com">Gaitherdb@gmail.com</a></li>
+          <li><a href="tel.5403989193">5403989193</a></li>
+          <li>
+            <a href="https://www.linkedin.com/in/david-gaither-Richmond"
+              >LinkedIn</a
+            >
+          </li>
+          <li>
+            <a href="./assets/images/David_Gaither_Resume.pdf">Resume</a>
+          </li>
+        </ul>
+      </section>
     </main>
-</body>
-
+  </body>
 </html>
